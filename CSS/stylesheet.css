@@ -23,7 +23,7 @@ html {
     /*background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 linear-gradient(to top right, #594e87, #58466f, #8c5470, #E05352, #C57A6E, #F59B96, #F27684, #EC586D, #D34052, #C53F4A, #E77A64);*/
     background: rgb(75, 55, 0);
-    background: linear-gradient(to top right, rgb(119, 81, 0), rgb(124, 116, 0));
+    background: linear-gradient(to top right, rgb(54, 37, 0), rgb(24, 22, 0));
     position: absolute;
     top: 0;
     left: 0;
@@ -66,10 +66,6 @@ h1 {
                 0 20px 20px rgba(0,0,0,.25);
 }
 
-.info ul li {
-    margin: 0 18px;
-    letter-spacing: 1px;
-}
 
 .socials ul {
     margin-top: 30px;
@@ -125,31 +121,12 @@ h1 {
         width: 45px;
         height: 45px;
     }
-
-    .info ul li {
-        margin: 0 9px;
-        letter-spacing: 1px;
-        font-size: 14px;
-    }
 }
 
-@media (max-width: 460px) {
-    .info ul li {
-        margin: 0 7px;
-        letter-spacing: -0.1px;
-        font-size: 13px;
-        font-weight: 100;
-    }
-}
 
 @media (max-width: 350px) {
     h1 {
         font-size: 38px;
-    }
-
-    .info ul {
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     .socials ul li {

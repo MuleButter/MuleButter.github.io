@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <style>
+  .info ul,
+.socials ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: #eee;
+}
   .navbar {
   overflow: hidden;
   background-color: rgba(51, 51, 51, 0);
@@ -21,14 +28,13 @@
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: rgba(67, 56, 223, 0.342);
   border-radius: 0%;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 /* Active/current link */
 .navbar a.active {
-  background-color: rgba(49, 49, 49, 0.945);
+  background-color: rgba(88, 80, 3, 0.849);
   color: white;
 }
 
@@ -50,6 +56,8 @@
   <link rel="shortcut icon" type="images/png" href="Assets/Favicon.png">
   <div class="navbar">
     <a href="/" class="active">Home</a>
+    <a target="_self" href="/Socials.html" title="Socials">Socials</a>
+    <a target="_self"  href="Aboutme.html" title="About me">About me</a>
     <img src="Assets/Favicon.png" style="width:100px;height: 100px;">
   </div>
   <head>
@@ -61,7 +69,7 @@
     <meta content='https://github.com/MuleButter/MuleButter.github.io/blob/main/Assets/Favicon.png?raw=true' property='og:image'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f44d8d87b5.js" crossorigin="anonymous"></script>
-    <script src="JS/triangles.js"></script>
+    <script src="JS/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@472&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/stylesheet.css">
   </head>
@@ -76,6 +84,7 @@
       </div>
       <div class="socials">
         <ul>
+          <a target="_self" href="/Socials.html" title="Socials"><li><i class="fa-solid fa-share-nodes"></i></li></a>
         </ul>
       </div>
     </div>
