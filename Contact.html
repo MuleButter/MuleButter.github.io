@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <style>
-    .info ul,
 .socials ul {
     display: flex;
     justify-content: space-evenly;
@@ -50,16 +49,25 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.main p {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: #eee;
+  margin: 0 18px;
+  letter-spacing: 1px;
+  font-size: larger;
+}
 
 </style>
 <html lang="en" dir="ltr">
   <link rel="shortcut icon" type="images/png" href="Assets/Favicon.png">
   <div class="navbar">
-    <a href="/" >Home</a>
-    <a target="_self" class="active" href="/Socials.html" title="Socials">Socials</a>
+    <a href="/">Home</a>
+    <a target="_self"  href="/Socials.html" title="Socials">Socials</a>
     <a target="_self"  href="Aboutme.html" title="About me">About me</a>
-    <a target="_self" href="Discord.html" title="Discord">Discord</a>
-    <a target="_self"  href="Contact.html" title="Contact">Contact</a>
+    <a target="_self"  href="Discord.html" title="Discord">Discord</a>
+    <a target="_self"  class="active" href="Contact.html" title="Contact">Contact</a>
     <img src="Assets/Favicon.png" style="width:100px;height: 100px;">
   </div>
 
@@ -68,7 +76,7 @@
     <title>Mule's Webpage</title>
     <meta content="Mule" property="og:title">
     <meta content="Mule's Webpage" property="og:site_name">
-    <meta content="Come take a look at my socials page!" property="og:description">
+    <meta content="Come take a look at my Contact page!" property="og:description">
     <meta content='https://github.com/MuleButter/MuleButter.github.io/blob/main/Assets/Favicon.png?raw=true' property='og:image'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f44d8d87b5.js" crossorigin="anonymous"></script>
@@ -80,16 +88,16 @@
   <body>
     <div id="bg"></div>
     <div class="main">
-      <h1>Socials</h1>
+      <h1>Contact</h1>
       <div class="info">
         <ul>
-          <li>Here are my Socials!</li>
+          <p>Wanna Contact me?</p>
+          <p>Click the button below to Email me!, Or you can dm me on Discordㅤ|ㅤ<a onClick="a();" style="cursor: pointer; cursor: hand;">Mule#1968</a> </p>
         </ul>
       </div>
       <div class="socials">
         <ul>
-            <a target="_blank" href="https://www.youtube.com/channel/UCUDzDiKdUg7hiJ2LrSQ52KA" title="Youtube"><li><i class="fa-brands fa-youtube"></i></li></a>
-            <a target="_blank" href="https://www.tiktok.com/@mule.vr" title="Tiktok"><li><i class="fa-brands fa-tiktok"></i></li></a>
+            <a href = "mailto: jamesobrien9529@gmail.com" title="Send Email"><li><i class="fa-solid fa-envelope"></i></li></a>
         </ul>
       </div>
     </div>

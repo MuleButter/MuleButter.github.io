@@ -139,4 +139,8 @@ function onResize() {
     clearTimeout(refreshTimeout),
     onLoad();
 }
+function a() {
+  navigator.clipboard.writeText('Mule#1968')
+  window.alert("Copied 'Mule#1968' to Clipboard!");
+}
 (window.onload = onLoad), (window.onresize = onResize);
